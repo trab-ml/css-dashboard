@@ -1,3 +1,10 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=La+Belle+Aurore&family=Marck+Script&family=Monoton&family=Poppins:ital,wght@0,200;1,100;1,400&display=swap');
+
+button:hover, a:hover {
+  cursor: pointer;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -22,6 +29,9 @@ body {
 .body-ctn > .header-ctn {
   grid-area: head;
   width: 100%;
+  /* position: fixed;
+  top: 0;
+  right: 0; */
   padding: 1rem 2rem;
 }
 
@@ -31,50 +41,4 @@ body {
 
 .body-ctn > .main-ctn {
   grid-area: main;
-}
-
-/* header style  */
-.header-ctn .header-box {
-  display: flex;
-  height: 2rem;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
-  border: 1px solid #0f0;
-}
-
-.header-ctn .header-box > div {
-  width: 50%;
-}
-
-.header-box .search-box {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-.header-box #search-input {
-    border: none;
-    outline: none;
-    background: #627B87;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
-.search-box label {
-    position: absolute;
-    left: 1rem;
-    margin: 10px 0;
-}
-
-.search-box .search-icon {
-    position: absolute;
-    top: 10px;
-    right: 3rem;
-}
-
-.header-box .account-info {
-    margin-left: 293px;
 }

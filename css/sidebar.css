@@ -1,0 +1,79 @@
+/* sidebar */
+.sidebar {
+  width: 100%;
+  height: 100%;
+  border: 1px solid yellow;
+  background: #0100390a;
+  box-sizing: border-box;
+}
+
+.sidebar .sidebar-logo {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  /* padding: 1.18rem; */
+  text-align: center;
+  border: 1px solid #0f0;
+  line-height: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar .sidebar-logo > p {
+  position: relative;
+  top: 0.8rem;
+  text-align: center;
+  z-index: 200;
+}
+
+.sidebar .sidebar-logo p::before {
+  content: "";
+  position: absolute;
+  width: 1.625rem;
+  height: 1.625rem;
+  left: 33%;
+  /* top: 1.18rem; */
+  top: 0.4rem;
+  background: #50a8e8;
+  border-radius: 15px;
+  z-index: 100;
+}
+
+.sidebar > .main-content {
+  width: 100%;
+  /* height: 33%; */
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid #0ef;
+  padding: 40px 24px 0 12px;
+}
+
+.main-content .options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* padding: 1rem 0; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.main-content .options:nth-child(1) {
+  /* margin: 2.5rem 0; */
+}
+
+#dashboard-btn {
+  border-radius: 10px;
+  /* padding: 0px 16px 0px 16px; */
+  padding: 0.5rem 1rem;
+}
+
+.main-content .options:nth-child(2) {
+  margin: 2.5rem 0;
+}
+.main-content .options .icon {
+  margin-right: 0.75rem;
+}

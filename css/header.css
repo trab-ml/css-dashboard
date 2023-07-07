@@ -1,0 +1,73 @@
+/* header style  */
+.header-ctn .header-box {
+  /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+  display: flex;
+  height: 2rem;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-ctn .header-box > div {
+  width: 50%;
+}
+
+.header-box .search-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header-box #search-input {
+  border: none;
+  outline: none;
+  background: var(--neutral-20, rgba(1, 0, 57, 0.04));
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding-left: 1rem;
+  color: #1f384c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.8125rem;
+  letter-spacing: 0.03125rem;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  top: 10px;
+  right: 1rem;
+}
+
+.header-box .account-info {
+  width: 13rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1.25rem;
+  margin-left: 293px;
+}
+
+.account-info .txt {
+  margin-right: 3px;
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.8125rem;
+  letter-spacing: 0.03125rem;
+}
+
+.burger-icon > svg {
+}
+
+.notif-icon {
+  color: #b0c3cc;
+}

@@ -1,0 +1,104 @@
+.main-ctn {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f6f8fa;
+}
+
+.main-ctn .main-flex-box {
+  max-width: 100%;
+  /* height: 100%; */
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 2.6rem 2.5rem 0;
+}
+
+/* cars sct   */
+.main-flex-box .cars-sct {
+  border: 1px solid #0f0;
+}
+
+.cars-sct .car-ctn {
+    width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1.94rem;
+  /* padding: 0 2.6rem; */
+  gap: 2.6rem;
+}
+
+.cars-sct h4 {
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4375rem;
+  letter-spacing: 0.03125rem;
+}
+
+.main-flex-box .cars-sct .car-ctn .item {
+  width: 16.0625rem;
+  height: 6.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #fff;
+}
+
+.car-ctn .car-box {
+  width: 3.9375rem;
+  height: 3.9375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: var(--bg);
+  padding: 3.93px;
+}
+
+.car-box svg {
+  width: 2.42306rem;
+  height: 2.42306rem;
+  flex-shrink: 0;
+  margin: 0.76rem 0.71rem;
+}
+
+.car-ctn .car-txt {
+  margin-left: 1.13rem;
+}
+
+.car-txt #percent {
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  letter-spacing: 0.0045rem;
+}
+
+.car-txt #small-txt {
+  color: #149d52;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.75rem;
+  letter-spacing: 0.03125rem;
+}
+
+/* stats sct  */
+.main-ctn .stats-sct {
+    margin-top: 1.38rem;
+    border: 1px solid #f00;
+}
+
+/* overview sct */
+.main-ctn .overview-sct {
+    margin-top: 2.5rem;
+    border: 1px solid #0f0;
+}
