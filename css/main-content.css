@@ -1,4 +1,5 @@
 .main-ctn {
+  /* height: max-content; */
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -7,11 +8,17 @@
 
 .main-ctn .main-flex-box {
   max-width: 100%;
-  /* height: 100%; */
   height: max-content;
   display: flex;
   flex-direction: column;
   padding: 2.6rem 2.5rem 0;
+}
+
+.main-flex-box {
+  width: fit-content;
+  /* height: fit-content; */
+  height: max-content;
+  box-sizing: border-box;
 }
 
 /* cars sct   */
@@ -20,7 +27,7 @@
 }
 
 .cars-sct .car-ctn {
-    width: fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -71,7 +78,7 @@
   margin-left: 1.13rem;
 }
 
-.car-txt #percent {
+.car-txt .percent {
   color: #1f384c;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
@@ -79,6 +86,16 @@
   font-weight: 600;
   line-height: 1.6875rem;
   letter-spacing: 0.0045rem;
+}
+
+.car-txt .id {
+  color: #80809c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.003rem;
 }
 
 .car-txt #small-txt {
@@ -93,12 +110,78 @@
 
 /* stats sct  */
 .main-ctn .stats-sct {
-    margin-top: 1.38rem;
-    border: 1px solid #f00;
+  margin-top: 1.38rem;
+  border: 1px solid #f00;
 }
 
 /* overview sct */
 .main-ctn .overview-sct {
-    margin-top: 2.5rem;
-    border: 1px solid #0f0;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #0f0;
+  margin-top: 2.5rem;
+}
+
+.overview-sct div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  letter-spacing: 0.00338rem;
+  padding: 1.81rem 0 1.75rem 2rem;
+}
+
+.overview-sct div:nth-child(1) input {
+  width: 12.375rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 0.625rem;
+  background: #f6f8fa;
+  color: #b0b0b0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.003rem;
+  padding: 0.81rem 1.19rem;
+}
+
+.overview-sct > table {
+  margin: 1.81rem 0 1.75rem 2rem;
+}
+
+.overview-sct > table thead tr:nth-child(1) {
+  background: rgba(243, 246, 249, 1);
+}
+
+.overview-sct > table tr th:nth-child(2),
+.overview-sct > table tr td:nth-child(2) {
+  padding: 1rem 0 0.94rem 1.69rem;
+}
+
+.overview-sct > table thead th {
+  text-align: left;
+}
+
+.overview-sct > table thead th:nth-child(3),
+.overview-sct > table tr td:nth-child(3) {
+  padding: 1rem 0 0.94rem 10.81rem;
+}
+
+.overview-sct > table tr th:nth-child(4),
+.overview-sct > table tr td:nth-child(4),
+.overview-sct > table tr th:nth-child(5),
+.overview-sct > table tr td:nth-child(5) {
+  padding: 1rem 0 0.94rem 2.69rem;
+}
+
+.overview-sct tbody tr:nth-child(2n) {
+  background: rgba(243, 246, 249, 0.5);
 }

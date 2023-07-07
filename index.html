@@ -53,22 +53,25 @@
           </div>
 
           <div class="account-info">
-            <span class="burger-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                fill="none"
-              >
-                <circle cx="16" cy="16" r="16" fill="#FFE6CC" />
-                <!-- 🍔 -->
-              </svg>
-            </span>
-            <span>
-              <span class="txt">Delicious Burger</span>
-              <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
-            </span>
+            <span class="burger-icon"> 🍔 </span>
+
+            <span class="txt">Delicious Burger</span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <g opacity="0.5">
+                <path
+                  d="M9.99997 13.0942L15.0083 8.08584L13.8308 6.90668L9.99997 10.74L6.16997 6.90668L4.99164 8.08501L9.99997 13.0942Z"
+                  fill="#1F384C"
+                />
+              </g>
+            </svg>
+
             <span class="notif-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,6 +83,24 @@
                 <path
                   d="M6.4 16C5.51684 15.9957 4.80073 15.2831 4.792 14.4H7.992C7.99369 14.6139 7.9529 14.826 7.872 15.024C7.66212 15.5056 7.23345 15.8569 6.72 15.968H6.716H6.704H6.6896H6.6824C6.58945 15.9874 6.49492 15.9981 6.4 16ZM12.8 13.6H0V12L1.6 11.2V6.8C1.55785 5.67129 1.81275 4.5513 2.3392 3.552C2.86323 2.62521 3.75896 1.9671 4.8 1.744V0H8V1.744C10.0632 2.2352 11.2 4.0304 11.2 6.8V11.2L12.8 12V13.6Z"
                   fill="#B0C3CC"
+                />
+              </svg>
+              <svg
+                width="10"
+                height="9"
+                viewBox="0 0 10 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                id="notif-sign"
+              >
+                <circle
+                  id="Notif Sign"
+                  cx="5"
+                  cy="4.77777"
+                  r="3.6"
+                  fill="#EC5252"
+                  stroke="white"
+                  stroke-width="1.2"
                 />
               </svg>
             </span>
@@ -125,7 +146,7 @@
                 Dashboard
               </button>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -139,10 +160,23 @@
                   fill="#767D87"
                 />
               </svg>
-              Order
-              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+              <span class="option-type"> Order </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <g opacity="0.5">
+                  <path
+                    d="M9.99997 13.0942L15.0083 8.08584L13.8308 6.90668L9.99997 10.74L6.16997 6.90668L4.99164 8.08501L9.99997 13.0942Z"
+                    fill="#1F384C"
+                  />
+                </g>
+              </svg>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -156,9 +190,9 @@
                   fill="#767D87"
                 />
               </svg>
-              Report
+              <span class="option-type"> Report </span>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -172,9 +206,9 @@
                   fill="#767D87"
                 />
               </svg>
-              Track
+              <span class="option-type"> Track </span>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -209,13 +243,13 @@
                   </clipPath>
                 </defs>
               </svg>
-              Maintenance
+              <span class="option-type"> Maintenance </span>
             </li>
           </ul>
 
           <ul class="options">
             <li>System</li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -229,10 +263,23 @@
                   fill="#767D87"
                 />
               </svg>
-              Master Data
-              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+              <span class="option-type"> Master Data </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <g opacity="0.5">
+                  <path
+                    d="M9.99997 13.0942L15.0083 8.08584L13.8308 6.90668L9.99997 10.74L6.16997 6.90668L4.99164 8.08501L9.99997 13.0942Z"
+                    fill="#1F384C"
+                  />
+                </g>
+              </svg>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -248,9 +295,9 @@
                   fill="#767D87"
                 />
               </svg>
-              user
+              <span class="option-type"> user </span>
             </li>
-            <li>
+            <li class="flex-box-option">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -264,7 +311,7 @@
                   fill="#767D87"
                 />
               </svg>
-              role
+              <span class="option-type"> role </span>
             </li>
           </ul>
         </div>
@@ -276,9 +323,13 @@
             <h4>Dashboard</h4>
 
             <div class="car-ctn">
-                
               <div class="item">
-                <div class="car-box" style="--bg: linear-gradient(135deg, #504178 0%, #FF7B8A 100%);">
+                <div
+                  class="car-box"
+                  style="
+                    --bg: linear-gradient(135deg, #504178 0%, #ff7b8a 100%);
+                  "
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -304,7 +355,7 @@
                 </div>
 
                 <div class="car-txt">
-                  <p id="percent">
+                  <p class="percent">
                     2.409
                     <span id="small-txt"
                       ><svg
@@ -332,12 +383,17 @@
                       2.1%
                     </span>
                   </p>
-                  <p>Jumlah Pemesan</p>
+                  <p class="id">Jumlah Pesanan</p>
                 </div>
               </div>
 
               <div class="item">
-                <div class="car-box" style="--bg: linear-gradient(135deg, #42BA17 0%, #9FF182 100%);">
+                <div
+                  class="car-box"
+                  style="
+                    --bg: linear-gradient(135deg, #42ba17 0%, #9ff182 100%);
+                  "
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -363,41 +419,20 @@
                 </div>
 
                 <div class="car-txt">
-                  <p id="percent">
-                    2.409
-                    <span id="small-txt"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="9"
-                        height="12"
-                        viewBox="0 0 9 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M4.6086 11L4.6086 1.96395"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M1.00001 4.55756L4.55761 0.999958L8.1152 4.55756"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      2.1%
-                    </span>
+                  <p class="percent">
+                    68.9%
                   </p>
-                  <p>Jumlah Pemesan</p>
+                  <p class="id">Pesanan selesai</p>
                 </div>
               </div>
 
               <div class="item">
-                <div class="car-box" style="--bg: linear-gradient(135deg, #5A6ACF 0%, #FF7B8A 100%);
-                ">
+                <div
+                  class="car-box"
+                  style="
+                    --bg: linear-gradient(135deg, #5a6acf 0%, #ff7b8a 100%);
+                  "
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -423,40 +458,20 @@
                 </div>
 
                 <div class="car-txt">
-                  <p id="percent">
-                    2.409
-                    <span id="small-txt"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="9"
-                        height="12"
-                        viewBox="0 0 9 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M4.6086 11L4.6086 1.96395"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M1.00001 4.55756L4.55761 0.999958L8.1152 4.55756"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      2.1%
-                    </span>
+                  <p class="percent">
+                    68.9%
                   </p>
-                  <p>Jumlah Pemesan</p>
+                  <p class="id">kpi driver</p>
                 </div>
               </div>
 
               <div class="item">
-                <div class="car-box" style="--bg: linear-gradient(135deg, #d32136 0%, #ff7b8a 100%);">
+                <div
+                  class="car-box"
+                  style="
+                    --bg: linear-gradient(135deg, #d32136 0%, #ff7b8a 100%);
+                  "
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -482,38 +497,12 @@
                 </div>
 
                 <div class="car-txt">
-                  <p id="percent">
-                    2.409
-                    <span id="small-txt"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="9"
-                        height="12"
-                        viewBox="0 0 9 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M4.6086 11L4.6086 1.96395"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M1.00001 4.55756L4.55761 0.999958L8.1152 4.55756"
-                          stroke="#149D52"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                      2.1%
-                    </span>
+                  <p class="percent">
+                    3.509
                   </p>
-                  <p>Jumlah Pemesan</p>
+                  <p class="id">Total customer</p>
                 </div>
               </div>
-
             </div>
           </section>
 
@@ -522,7 +511,74 @@
           </section>
 
           <section class="overview-sct">
-            <h4>Overview Pemesanan</h4>
+            <div>
+              <h4>Overview Pemesanan</h4>
+              <input type="text" id="search-input" placeholder="Search..." />
+            </div>
+
+            <table>
+              <caption></caption>
+              <thead>
+                <tr>
+                  <th scope="col">N°</th>
+                  <th scope="col">Nama customer</th>
+                  <th scope="col">Jenis</th>
+                  <th scope="col">Kuantitas</th>
+                  <th scope="col">tangal pengiriman</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>brad simmons</td>
+                  <td>pentamax</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>jessie clarcson</td>
+                  <td>turbo</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>brad simmons</td>
+                  <td>pentamax</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>jessie clarcson</td>
+                  <td>turbo</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>brad simmons</td>
+                  <td>pentamax</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>jessie clarcson</td>
+                  <td>turbo</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>brad simmons</td>
+                  <td>pentamax</td>
+                  <td>2000 liter</td>
+                  <td>21 December 2021</td>
+                </tr>
+              </tbody>
+            </table>
           </section>
         </div>
       </main>

@@ -1,4 +1,6 @@
 /* header style  */
+/* .header-ctn {width: 100%;} */
+
 .header-ctn .header-box {
   /* position: absolute;
     top: 0;
@@ -31,7 +33,7 @@
   border-radius: 5px;
   padding-left: 1rem;
   color: #1f384c;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
@@ -50,24 +52,38 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 1.25rem;
-  margin-left: 293px;
+  /* gap: 1.25rem; */
 }
 
 .account-info .txt {
-  margin-right: 3px;
-  color: #1f384c;
   font-family: "Poppins", sans-serif;
+  color: #1f384c;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
   line-height: 0.8125rem;
   letter-spacing: 0.03125rem;
+  margin-left: .75rem;
 }
 
-.burger-icon > svg {
+.burger-icon {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  background: #ffe6cc;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .notif-icon {
+  position: relative;
+  margin-left: 2rem;
   color: #b0c3cc;
+}
+
+#notif-sign {
+  position: absolute;
+  right: 0;
 }
