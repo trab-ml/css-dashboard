@@ -1,11 +1,8 @@
 .body-ctn > .main-ctn {
   grid-area: main;
-  padding: 1rem 2rem;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
   background: #f6f8fa;
   border: 1px solid blue;
+  padding: 1rem 2rem;
 }
 
 .main-flex-box {
@@ -50,12 +47,12 @@
 }
 
 .car-ctn .car-box {
-  width: 3.9rem;
-  height: 3.9rem;
+  width: 3.9375rem;
+  height: 3.9375rem;
   flex-shrink: 0;
   border-radius: 0.625rem;
   background: var(--bg);
-  padding: 3.93px;
+  /* padding: 3.93px; */
 }
 
 .car-box svg {
@@ -107,7 +104,6 @@
 
 /* overview sct */
 .main-ctn .overview-sct {
-  width: 100%;
   background: #ffffff;
   border: 1px solid #0f0;
   margin-top: 2.5rem;
@@ -145,7 +141,16 @@
 }
 
 .overview-sct > table {
+  /* width: fit-content;
+  display: flex;
+  flex-direction: column; */
   margin: 1.81rem 0 1.75rem 2rem;
+  hyphens: auto;
+}
+
+.overview-sct > table th,
+.overview-sct > table td {
+    margin: 1rem;
 }
 
 .overview-sct > table thead tr:nth-child(1) {

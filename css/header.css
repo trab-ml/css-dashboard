@@ -1,11 +1,11 @@
 /* header style  */
-/* .header-ctn {width: 100%;} */
+.body-ctn > .header-ctn {
+  grid-area: head;
+  width: 100%;
+  padding: 1rem 2rem;
+}
 
 .header-ctn .header-box {
-  /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0; */
   display: flex;
   height: 2rem;
   flex-wrap: nowrap;
