@@ -1,18 +1,17 @@
 footer {
-    padding-left: 1rem;
-    color: #86868C;
-
+  padding-left: 1rem;
+  color: #86868c;
 }
 
 footer .pagination {
   position: absolute;
-  right: 0;
   display: inline-flex;
+  right: 0;
   padding: 0.625rem;
+  margin-top: 1.2rem;
   justify-content: center;
   align-items: center;
   gap: 0.375rem;
-  margin-top: 1.2rem;
 }
 
 .pagination div:first-child,
@@ -28,7 +27,7 @@ footer .pagination {
 }
 
 .pagination div:last-child {
-    margin-right: 1.44rem;
+  margin-right: 1.44rem;
 }
 
 .pagination div {
@@ -55,4 +54,3 @@ footer .pagination {
   border-radius: 0.375rem;
   background: #504178;
 }
-

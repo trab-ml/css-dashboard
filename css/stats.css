@@ -16,6 +16,7 @@
   padding: 0 1.5rem;
 
   color: #1f384c;
+
   font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
@@ -30,6 +31,7 @@
   flex-shrink: 0;
 
   border-radius: 0.625rem;
+
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -52,6 +54,7 @@
 .axe-x > .col,
 .axe-y > .col {
   color: #939393;
+
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   font-style: normal;
@@ -117,6 +120,7 @@
   margin-top: 0.7rem;
 
   color: #1f384c;
+
   font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
@@ -127,7 +131,9 @@
 
 .customer-list-box ul li {
   padding-top: 0.8rem;
+
   color: #273240;
+  
   font-family: "Poppins", sans-serif;
   font-size: 0.875rem;
   font-style: normal;

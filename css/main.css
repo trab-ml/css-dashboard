@@ -25,6 +25,7 @@
 
 .cars-sct h4 {
   color: #1f384c;
+
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -43,6 +44,7 @@
   flex-shrink: 0;
 
   border-radius: 0.625rem;
+
   background: #fff;
 }
 
@@ -52,14 +54,15 @@
   flex-shrink: 0;
   
   border-radius: 0.625rem;
+
   background: var(--bg);
 }
 
 .car-box svg {
   width: 2.42306rem;
   height: 2.42306rem;
-  flex-shrink: 0;
   margin: 0.76rem 0.71rem;
+  flex-shrink: 0;
 }
 
 .car-ctn .car-txt {
@@ -68,6 +71,7 @@
 
 .car-txt .percent {
   color: #1f384c;
+
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -78,6 +82,7 @@
 
 .car-txt .id {
   color: #80809c;
+
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -88,6 +93,7 @@
 
 .car-txt #small-txt {
   color: #149d52;
+  
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   font-style: normal;
