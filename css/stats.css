@@ -1,0 +1,149 @@
+/* stats sct  */
+.main-ctn .stats-sct {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 1.38rem;
+  overflow-x: scroll;
+
+  background: #fff;
+}
+
+.stats-sct .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  letter-spacing: 0.00338rem;
+}
+
+.stats-sct input[type="date"] {
+  width: 9.375rem;
+  height: 3rem;
+  flex-shrink: 0;
+
+  border-radius: 0.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 1.5rem;
+
+  background-color: #fff;
+}
+
+.axe-x {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.8125rem;
+  margin-left: 4.2rem;
+}
+
+.axe-x > .col,
+.axe-y > .col {
+  color: #939393;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.95rem;
+  letter-spacing: 0.03125rem;
+}
+
+.axe-x > .col {
+  display: flex;
+  padding-left: 1rem;
+  align-items: flex-start;
+}
+
+.axe-y {
+  display: flex;
+  flex-direction: column;
+  width: 1.8rem;
+  height: 23rem;
+  gap: 1.5rem;
+}
+
+.axe-y > .col {
+  animation: bar-filling 1s ease 0.5s;
+}
+
+.graph {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 23rem;
+  gap: 1.94rem;
+  margin-left: 1.94rem;
+}
+
+.bar {
+  position: relative;
+  height: 100%;
+  width: 1.25rem;
+  flex-shrink: 0;
+
+  background: #ede7fd;
+}
+
+.full-bar {
+  position: absolute;
+  width: 1.25rem;
+  height: var(--percent);
+  bottom: 0;
+
+  background-color: #504178;
+
+  transition: all ease-in-out 1s;
+  animation: bar-filling 1s ease-in-out 0.5s;
+}
+
+/* .customer-list-box, */
+.customer-list-box {
+  padding-left: 5rem;
+}
+
+.customer-list-box h3 {
+  margin-top: 0.7rem;
+
+  color: #1f384c;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  letter-spacing: 0.00338rem;
+}
+
+.customer-list-box ul li {
+  padding-top: 0.8rem;
+  color: #273240;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: 0.00263rem;
+}
+
+@keyframes bar-filling {
+  0% {
+    height: calc(var(--percent) / 4);
+  }
+  70% {
+    height: calc(var(--percent) / 2);
+  }
+  100% {
+    height: var(--percent);
+  }
+}

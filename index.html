@@ -9,6 +9,9 @@
     <link href="./css/header.css" type="text/css" rel="stylesheet" />
     <link href="./css/sidebar.css" type="text/css" rel="stylesheet" />
     <link href="./css/main.css" type="text/css" rel="stylesheet" />
+    <link href="./css/stats.css" type="text/css" rel="stylesheet" />
+    <link href="./css/overview.css" type="text/css" rel="stylesheet" />
+    <link href="./css/footer.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div class="body-ctn">
@@ -419,9 +422,7 @@
                 </div>
 
                 <div class="car-txt">
-                  <p class="percent">
-                    68.9%
-                  </p>
+                  <p class="percent">68.9%</p>
                   <p class="id">Pesanan selesai</p>
                 </div>
               </div>
@@ -458,9 +459,7 @@
                 </div>
 
                 <div class="car-txt">
-                  <p class="percent">
-                    68.9%
-                  </p>
+                  <p class="percent">68.9%</p>
                   <p class="id">kpi driver</p>
                 </div>
               </div>
@@ -497,9 +496,7 @@
                 </div>
 
                 <div class="car-txt">
-                  <p class="percent">
-                    3.509
-                  </p>
+                  <p class="percent">3.509</p>
                   <p class="id">Total customer</p>
                 </div>
               </div>
@@ -507,13 +504,110 @@
           </section>
 
           <section class="stats-sct">
-            <h4>Statistik Pemesanan</h4>
+            <div class="sct-body">
+              <div class="header">
+                <h4>Statistik Pemesanan</h4>
+                <form>
+                  <input type="date" value="2023-07-08" />
+                </form>
+              </div>
+
+              <div class="container">
+                <div class="axe-y">
+                  <div class="col">1000</div>
+                  <div class="col">900</div>
+                  <div class="col">700</div>
+                  <div class="col">600</div>
+                  <div class="col">500</div>
+                  <div class="col">400</div>
+                  <div class="col">300</div>
+                  <div class="col">200</div>
+                  <div class="col">100</div>
+                  <div class="col">0</div>
+                </div>
+
+                <div class="graph">
+                  <div class="bar">
+                    <div class="full-bar" style="--percent:78%;"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 50%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 65%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 25%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 50%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 70%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 35%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 85%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 70%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 55%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 78%"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="full-bar" style="--percent: 65%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="axe-x">
+                <div class="col">jan</div>
+                <div class="col">fev</div>
+                <div class="col">mar</div>
+                <div class="col">apr</div>
+                <div class="col">mai</div>
+                <div class="col">jun</div>
+                <div class="col">jul</div>
+                <div class="col">aug</div>
+                <div class="col">sep</div>
+                <div class="col">oct</div>
+                <div class="col">nov</div>
+                <div class="col">dec</div>
+              </div>
+            </div>
+
+            <div class="customer-list-box">
+                <h3>customer pemesan terbanyak</h3>
+
+                <ul>
+                    <li> PT javan cipta solusi  <span>450</span> </li>
+                    <li> CV ABCD  <span>449</span> </li>
+                    <li> CV OQURY TRENA ANJANI <span>443</span> </li>
+                    <li> PT javan solusi  <span>441</span> </li>
+                    <li> PT insan cipta solusi  <span>420</span> </li>
+                    <li> PT mitra informatika <span>412</span> </li>
+                    <li> PT gamatechno indonesia  <span>411</span> </li>
+                    <li> patra jasa  <span>390</span> </li>
+                    <li> patra arun badak  <span>387</span> </li>
+                    <li> pentamina corporate university  <span>376</span> </li>
+                    <li> pentamina ru IV  <span>361</span> </li>
+                    <li> pentamina corporate university  <span>365</span> </li>
+                </ul>
+            </div>
           </section>
 
           <section class="overview-sct">
             <div>
               <h4>Overview Pemesanan</h4>
-              <input type="text" id="search-input" placeholder="Search..." />
+              <form>
+                <input type="text" id="search-input" placeholder="Search..." />
+              </form>
             </div>
 
             <table>
@@ -583,5 +677,17 @@
         </div>
       </main>
     </div>
+
+    <footer>
+        <div class="pagination">
+            <div>prev</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>next</div>
+        </div>
+    </footer>
   </body>
 </html>
