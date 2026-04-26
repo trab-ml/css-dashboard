@@ -1,7 +1,24 @@
-# css-dashboard
+# CSS Dashboard
 
-[Jeter un coup d'oeil au projet deployé](https://trab-ml.github.io/css-dashboard/)
+[View the project](https://trab-ml.github.io/css-dashboard/)
 
-Ce projet est un dashboard fictif dont l’objectif principal est de travailler le CSS en profondeur à travers une interface moderne inspirée d’outils professionnels (admin panels, dashboards SaaS, back-offices).
+This project is a fictional dashboard designed to deepen CSS skills through the creation of a modern interface inspired by real-world applications such as admin panels, SaaS dashboards, and back-office systems.
 
-Aucune logique métier complexe : le focus est mis sur le layout, le design et la structuration visuelle.
+The application contains no complex business logic. The main focus is on layout design, visual structure, and mastering CSS techniques.
+
+---
+
+## Overview
+
+This project focuses on:
+
+* Advanced CSS layout techniques (Flexbox, Grid)
+* Building structured and responsive interfaces
+* UI composition inspired by professional dashboards
+* Visual hierarchy and design consistency
+
+---
+
+## Purpose
+
+The goal is to strengthen frontend styling skills by recreating a realistic dashboard interface, emphasizing clean design and layout organization over functional complexity.
